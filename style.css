@@ -1,3 +1,4 @@
+/* Your existing CSS */
 
 body, h1, h2, p, ul, li {
     margin: 0;
@@ -25,9 +26,9 @@ nav ul {
 nav ul li {
     display: inline;
     margin-left: 20px;
-    
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     background-color: antiquewhite;
 }
 
@@ -38,7 +39,7 @@ nav a {
 }
 
 .home {
-    height: 100vh; /* Set the section's height to full viewport height */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,31 +47,35 @@ nav a {
     text-align: center;
     background-color: #E3F2C1;
 }
-.welcome{
+
+.welcome {
     color: solid black;
     font-family: serif;
     font-size: 50px;
 }
-.developer{
+
+.developer {
     color: solid black;
 }
+
 .about {
-    height: 100vh; /* Set the section's height to full viewport height */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #C9DBB2
+    background-color: #C9DBB2;
 }
+
 .contact {
-    height: 100vh; /* Set the section's height to full viewport height */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:#AAC8A7;
+    background-color: #AAC8A7;
 }
 
 section {
@@ -83,4 +88,28 @@ footer {
     padding: 1rem 0;
     background-color: #333;
     color: #fff;
+}
+
+/* Gallery section CSS */
+.gallery {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F0E1D2; /* Change the background color as desired */
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between images */
+}
+
+.image-gallery img {
+    max-width: 25%;
+    height: auto;
+    border: 2px solid #fff; /* Optional: Add a border around each image */
 }
